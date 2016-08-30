@@ -1,0 +1,65 @@
+<!doctype>
+<html>
+<head>
+    <title>jsPDF</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="jspdf.debug.js"></script>
+    <script type="text/javascript" src="html2canvas.min.js"></script>
+    <script type="text/javascript" src="div2png.js"></script>
+    <script type="text/javascript" src="basic.js"></script>
+</head>
+
+<body>
+    <div>
+    <!--
+        <p>
+          <button onclick="javascript:demoFromHTML()" class="button">点我试试</button>
+        </p>
+    -->
+    <p>
+        <button id="downloadPng">下载图片</button>
+        <button id="download">下载PDF</button>
+    </p>
+    </div>
+    <div id="fromHTMLtestdiv" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h1 class="text-center">Team</h1>
+                    <p class="text-center">We are a group of skilled individuals.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+                    class="center-block img-circle img-responsive">
+                    <h3 class="text-center">John Doe</h3>
+                    <p class="text-center">Developer</p>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+                    class="center-block img-circle img-responsive">
+                    <h3 class="text-center">John Doe</h3>
+                    <p class="text-center">Developer</p>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+                    class="center-block img-circle img-responsive">
+                    <h3 class="text-center">John Doe</h3>
+                    <p class="text-center">Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
